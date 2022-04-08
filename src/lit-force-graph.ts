@@ -2,8 +2,8 @@ import { html, css, LitElement } from "lit";
 import { customElement, property, query, state } from "lit/decorators.js";
 import { Renderer } from "./classes/context";
 import { GraphData, GraphNode } from "./classes/graph";
-import { render2D } from "./modes/mode-2d";
-import { render3D } from "./modes/mode-3d";
+import { render as render2D } from "./modes/mode-2d";
+import { render as render3D } from "./modes/mode-3d";
 
 export const tagName = "lit-force-graph";
 

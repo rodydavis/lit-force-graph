@@ -1,7 +1,7 @@
 import ForceGraph from "force-graph";
 import { RenderContext } from "../classes/context";
 
-export function render2D(context: RenderContext) {
+export function render(context: RenderContext) {
   const graph = ForceGraph();
   const style = getComputedStyle(context.element);
   const lineColor = style.getPropertyValue("--graph-line-color").trim();

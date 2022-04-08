@@ -1,7 +1,7 @@
 import ForceGraph from "3d-force-graph";
 import { RenderContext } from "../classes/context.js";
 
-export function render3D(context: RenderContext) {
+export function render(context: RenderContext) {
   const graph = ForceGraph({
     controlType: "trackball",
     rendererConfig: { antialias: true, alpha: true },
