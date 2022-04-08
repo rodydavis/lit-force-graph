@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 12px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+lit-force-graph {
+  width: 100%;
+  height: 100vh;
+}
+
+:root {
+  --graph-background-color: #eee;
+  --graph-foreground-color: #000;
+  --graph-line-color: rgb(90, 90, 90);
+  --graph-node-color: rgb(218, 14, 14);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --graph-background-color: #000;
+    --graph-foreground-color: #fafafa;
+    --graph-line-color: rgb(214, 214, 214);
+    --graph-node-color: rgb(228, 8, 8);
+  }
+}
